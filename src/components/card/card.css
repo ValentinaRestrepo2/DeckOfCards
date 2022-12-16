@@ -1,0 +1,30 @@
+.card {
+  width: 5rem;
+  transition: opacity 200ms;
+}
+
+.card:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.card-selecting {
+  animation: selecting 1s ease-in-out infinite;
+}
+
+@keyframes selecting {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card-disabled:hover {
+  opacity: 1;
+  cursor: initial;
+}

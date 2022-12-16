@@ -1,0 +1,38 @@
+.new-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.new-card-title {
+  padding-top: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  border-top: 2px solid gray;
+  width: 70%;
+  text-align: center;
+}
+
+.new-card-text {
+  text-align: center;
+}
+
+.new-card-button {
+  width: 50%;
+}
+
+.cards-for-players {
+  display: flex;
+  gap: 5rem;
+}
+
+.card-for-player-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-for-player-text {
+  margin-bottom: 0.5rem;
+}
